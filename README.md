@@ -133,7 +133,7 @@ git diff HEAD~2 HEAD file.txt # Changes to file.txt only
 
 #### Checking out a commit
 ```
-git checkout dad47ed file.txt # retrieve a file from previous a commit
+git checkout dad47ed file.txt # Retrieves a file from previous a commit
 git checkout dad47ed  		  # Checks out the given commit
 git checkout master
 ```
