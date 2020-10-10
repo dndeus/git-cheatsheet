@@ -4,7 +4,7 @@
 - Browsing History 
 - Branching & Merging 
 - Collaboration	 
-- Rew riting History
+- Rewriting History
 
 
 ## Creating Snapshots 
