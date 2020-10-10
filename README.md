@@ -10,7 +10,9 @@
 
 ## Creating Snapshots 
 #### Initializing a repository 
-`git init`
+```
+git init
+```
 
 #### Staging files  
 ```
