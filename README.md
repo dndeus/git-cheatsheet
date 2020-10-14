@@ -191,7 +191,7 @@ git diff master..bugfix			# Shows the summary of changes
 
 #### Stashing
 ```
-git stash push -m “Message”		# Creates a new stash
+git stash save “Message”		# Creates a new stash
 git stash list				# Lists all the stashes
 git stash show stash@{1}		# Shows the given stash
 git stash show 1			# shortcut for stash@{1}
