@@ -4,7 +4,7 @@
 - Browsing History 
 - Branching & Merging 
 - Collaboration	 
-- Rewriting History
+- Rew riting History
 
 
 ## Creating Snapshots 
@@ -17,7 +17,7 @@ git init
 ```
 git add file1.js			# Stages a single file 
 git add file1.js file2.js		# Stages multiple files
-git add *.js				# Stages with a pattern
+git add *.js                    	# Stages with a pattern
 git add .				# Stages the current directory and all its content
 ```
 
@@ -194,6 +194,7 @@ git diff master..bugfix			# Shows the summary of changes
 git stash save “Message”		# Creates a new stash
 git stash list				# Lists all the stashes
 git stash show stash@{1}		# Shows the given stash
+git stash show -p stash@{0} 		# Shows the given stash's changes
 git stash show 1			# shortcut for stash@{1}
 git stash apply 1			# Applies the given stash to the working dir
 git stash drop 1			# Deletes the given stash
@@ -298,3 +299,4 @@ git commit --amend
 ```
 git rebase -i HEAD~5
 ```
+151.101.16.133
