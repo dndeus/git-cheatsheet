@@ -279,8 +279,8 @@ git reset --hard HEAD^			# Discards local changes
 git revert 72856ea			# Reverts the given commit
 git revert HEAD~3..			# Reverts the last three commits. It creates the new commits
 git revert --no-commit HEAD~3..		# Revert the las 3 commits with just one commit
-	git revert —abort		# Cancel the revert
-	git revert —continue		# Complete the revert and give your message
+git revert —abort			# Cancel the revert
+git revert —continue			# Complete the revert and give your message
 ```
 
 #### Recovering lost commits
