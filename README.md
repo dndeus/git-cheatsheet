@@ -91,7 +91,7 @@ git restore --source=HEAD~2 file.js
 
 #### Recover Files When Changes Are Staged but Not Committed
 ```
-git fsck and then i.e. git show f24facc98b387a375a50ba6d19193626cbfe7d45 > restored_file.txt
+git fsck			# It checks for all the "dangling blobs" in the .git directory. Then i.e. git show f24facc98b387a375a50ba6d19193626cbfe7d45 > restored_file.txt
 ```
 
 ## Browsing History
